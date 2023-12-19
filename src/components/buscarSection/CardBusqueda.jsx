@@ -8,12 +8,12 @@ const CardBusqueda = ({ pelicula, agregarFavorito, esFavorito }) => {
     setExpanded(!expanded);
   };
 
-  // favoritos
+  // favoritos 
   const handleToggleFavorito = () => {
     agregarFavorito(pelicula);
   }
-
-
+  //favoritos
+   
 
   return (
     <>
@@ -37,3 +37,4 @@ const CardBusqueda = ({ pelicula, agregarFavorito, esFavorito }) => {
 }
 
 export { CardBusqueda }
+
