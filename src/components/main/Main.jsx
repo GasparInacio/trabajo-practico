@@ -35,6 +35,9 @@ const Main = () => {
 
   return (
     <main className="main">
+      <h1 className='h1'>Bienvenido a tu buscador de películas</h1>
+      <p className="p">Películas populares de esta semana</p>
+
       {pelicula.map((pelicula)=>(
         <Card 
       key={pelicula.id}

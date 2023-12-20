@@ -27,3 +27,16 @@
     background-color: white;
     color: rgb(31, 3, 5);
 }
+
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 2em;
+    }
+
+    .link {
+        margin: .5em;
+        padding: .7em;
+        font-size: 1em;
+    }
+    
+  }

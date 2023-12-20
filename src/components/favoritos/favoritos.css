@@ -71,3 +71,9 @@
     color: black;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {   
+    .containerFavoritos {
+        flex-direction: column;
+    }
+}
