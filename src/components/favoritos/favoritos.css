@@ -8,6 +8,11 @@
 
 .tituloFavoritos {
     margin: 1em 0;
+    font-size: 2em;
+}
+
+.titleVacio {
+    font-size: 1.2em;
 }
 
 .containerFavoritos {

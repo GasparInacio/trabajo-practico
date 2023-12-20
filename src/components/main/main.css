@@ -12,6 +12,24 @@
  margin: 1em 5em;
 }
 
+.h1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  font-size: 3em;
+}
+
+.p {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .5em 0 1em 0;
+  font-size: 2em;
+}
+
 @media screen and (max-width: 480px) {
     .main {
       flex-wrap: nowrap;
