@@ -12,7 +12,6 @@ const CardBusqueda = ({ pelicula, agregarFavorito, esFavorito }) => {
   const handleToggleFavorito = () => {
     agregarFavorito(pelicula);
   }
-  //favoritos
    
 
   return (

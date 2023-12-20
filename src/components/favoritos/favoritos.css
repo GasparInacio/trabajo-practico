@@ -6,6 +6,10 @@
     gap: 1em;
 }
 
+.tituloFavoritos {
+    margin: 1em 0;
+}
+
 .containerFavoritos {
     width: 100%;
     display: flex;
