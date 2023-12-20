@@ -1,15 +1,15 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .main {
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
- background-color: rgb(4, 1, 1);
- color: white;
- margin: 1em 5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(4, 1, 1);
+  color: white;
+  margin: 1em 5em;
 }
 
 .h1 {
@@ -31,16 +31,25 @@
 }
 
 @media screen and (max-width: 480px) {
-    .main {
-      flex-wrap: nowrap;
-      flex-direction: column;
-      align-items: center;
-      margin: 0;
-    }
-
-    .h1 {
-      font-size: 1.5em;
-      text-align: center;
-      margin: 1em 0 .5em 0;
-    }
+  .main {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
   }
+
+  .h1 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 1em 0 .5em 0;
+  }
+
+  .p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 1em
+  }
+}
